@@ -24,4 +24,5 @@ public class CoinChange {
         }
         return amountarray[amount] > amount ? -1 : amountarray[amount];
     }
+
 }
