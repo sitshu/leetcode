@@ -40,7 +40,7 @@ public class FeatureRequestsFrequency {
         ArrayList<String> ls = new ArrayList<>(frequency.keySet());
         Collections.sort(ls,
                 (a, b) -> (frequency.get(a)).equals(frequency.get(b)) ? a.compareTo(b) : frequency.get(b) - frequency.get(a));
-        if(k>setSize){
+        if(k>setSize && k >ls.size()){
             return ls;
         }
         return new ArrayList<>(ls.subList(0, k));
