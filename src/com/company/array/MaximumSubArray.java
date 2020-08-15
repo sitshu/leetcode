@@ -1,4 +1,4 @@
-package com.company;
+package com.company.array;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;
