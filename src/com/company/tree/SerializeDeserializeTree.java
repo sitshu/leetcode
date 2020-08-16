@@ -1,4 +1,4 @@
-package com.company;
+package com.company.tree;
 
 public class SerializeDeserializeTree {
 
